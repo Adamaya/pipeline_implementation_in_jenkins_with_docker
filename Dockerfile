@@ -7,6 +7,9 @@ RUN yum install git -y
 RUN sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 RUN sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 RUN yum install jenkins -y
+RUN wget https://download.docker.com/linux/centos/docker-ce.repo
+RUN cp docker-ce.repo /etc/yum.repos.d/
+RUN dnf install --nobest docker-ce -y
 EXPOSE 8080
 
 
