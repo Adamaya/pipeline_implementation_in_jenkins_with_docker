@@ -10,6 +10,8 @@
 
 `docker container run -dit --name <name> -p 80:8080 jenkinscustom`
 
+- open link in web address bar `<ip of docker container>:8080`
+
 - to see the password of jenkins run command.
 
 `docker exec <name> cat /var/lib/jenkins/secrets/initialAdminPassword`
