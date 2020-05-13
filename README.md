@@ -17,7 +17,8 @@
 
 8.	Create One extra job job5 for monitor : If container where app is running. fails due to any reson then this job should automatically start the container again.
 
-## Steps
+## Steps:
+### buildd the custom jenkins image.
 
 - clone the repo and move to directory of cloned folder of repositry
 
