@@ -59,4 +59,7 @@
 - go to job 2 -> click on configure
 - no do as given in image.
 ![checking the format](/pictures/4_Task2.PNG)
+- add the code
 ![checking the format](/pictures/5_Task2.PNG)
+
+### 6.	Job3 : Test your app if it  is working or not.
