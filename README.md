@@ -41,25 +41,50 @@
 ### 3.	Create a job chain of job1, job2, job3 and  job4 using build pipeline plugin in Jenkins 
 
 - create 4 jobs named job1,job2,job3,job4
+
 - set the order of execution job1->job2->job3->job4
+
 - now go to manage jenkins -> plugins manager -> available -> search build pipeline -> install the first plugin
+
 - now go to jenkins dashboard -> go to (+) option on the top of jobs list -> select build option and enter the build name -> go to intial build option and choose the job1 -> save it.
 
 ### 4.	 Job1 : Pull  the Github repo automatically when some developers push repo to Github.
 
 - go to plugin managerand install github plugins.
+
 - go to job1 -> click on configure
+
 - now do as given in images.
 ![configure github pull](/pictures/1_task2.PNG)
 ![configure github pull](/pictures/2_task2.PNG)
+
 - save it
 
 ### Job2 : By looking at the code or program file, Jenkins should automatically start the respective language interpreter install image container to deploy code ( eg. If code is of  PHP, then Jenkins should start the container that has PHP already installed ).
 
 - go to job 2 -> click on configure
+
 - no do as given in image.
+
 ![checking the format](/pictures/4_Task2.PNG)
+
 - add the code
+
 ![checking the format](/pictures/5_Task2.PNG)
 
+- apply and save
+
 ### 6.	Job3 : Test your app if it  is working or not.
+- add the code in execute shell
+
+![](/pictures/11_Task2.PNG)
+
+- apply and save
+
+### 7.	Job4 : if app is not working , then send email to developer with error messages.
+- do as given in image.
+![](/pictures/6_Task2.PNG)
+![](/pictures/7_Task2.PNG)
+![](/pictures/8_Task2.PNG)
+![](/pictures/9_Task2.PNG)
+![](/pictures/10_Task2.PNG)
