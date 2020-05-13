@@ -58,5 +58,5 @@
 
 - go to job 2 -> click on configure
 - no do as given in image.
-![checking the format](/pictures/3_Task2.PNG)
 ![checking the format](/pictures/4_Task2.PNG)
+![checking the format](/pictures/5_Task2.PNG)
