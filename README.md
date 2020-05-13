@@ -1,5 +1,9 @@
 # pipeline_implementation_in_jenkins_with_docker
 
+## Prerequisite
+
+- **docker must be installed in your system.**
+
 ## Task
 1.	Create container image that’s has Jenkins installed  using dockerfile 
 
@@ -84,7 +88,19 @@
 ### 7.	Job4 : if app is not working , then send email to developer with error messages.
 - do as given in image.
 ![](/pictures/6_Task2.PNG)
+
 ![](/pictures/7_Task2.PNG)
+
 ![](/pictures/8_Task2.PNG)
-![](/pictures/9_Task2.PNG)
+
+![](/pictures/12_Task2.PNG)
+
+**Note:** change your your email and password credential accordingly.
+
 ![](/pictures/10_Task2.PNG)
+
+## How to test
+
+- go to your build view and run the build
+
+![](/pictures/13_Task2.PNG)
