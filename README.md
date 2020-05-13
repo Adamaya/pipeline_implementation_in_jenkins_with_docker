@@ -50,4 +50,13 @@
 - go to plugin managerand install github plugins.
 - go to job1 -> click on configure
 - now do as given in images.
-![conf](/pictures/1_task2.PNG)
+![configure github pull](/pictures/1_task2.PNG)
+![configure github pull](/pictures/2_task2.PNG)
+- save it
+
+### Job2 : By looking at the code or program file, Jenkins should automatically start the respective language interpreter install image container to deploy code ( eg. If code is of  PHP, then Jenkins should start the container that has PHP already installed ).
+
+- go to job 2 -> click on configure
+- no do as given in image.
+![checking the format](/pictures/3_Task2.PNG)
+![checking the format](/pictures/4_Task2.PNG)
